@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/Media/Images/wallUK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header, main, aside, footer, div{
+    border-radius: 25px;
+    margin: 15px auto;
+    width: 80%;
+    background-color: rgba(0, 3, 163, 0.705);
+    color: rgb(235, 233, 233);
+}
+header{
+    color: darkorchid;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding: 50px;
+    display: flex;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+div h1{
+    width: 100%;
+}
+iframe{
+    display: flex;
+    margin: 0 auto 5% auto;
+    border-radius: 25px;
+    width: 60%;
+}

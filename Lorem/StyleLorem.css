@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../Media/Images/l.png);
+    background-size: 50px;
+}
+header, main, aside, footer, div{
+    border-radius: 25px;
+    margin: 15px auto;
+    width: 80%;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+}
+header{
+    color: darkorchid;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;    
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding: 50px;
+    display: flex;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+}
+div{
+    padding: 20px;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
